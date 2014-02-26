@@ -1,0 +1,28 @@
+{
+  "name": "timeout",
+  "version": "0.0.0",
+  "description": "setTimeout with a simple restart API (e.g. useful for watchdog-timers)",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test --reporter spec",
+    "dev": "./node_modules/.bin/mocha ./test --watch --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonkuhrt/timeout.git"
+  },
+  "keywords": [
+    "watchdog-timer",
+    "setTimeout",
+    "noglobals",
+    "timer"
+  ],
+  "author": "Jason Kuhrt <jasonkuhrt@me.com> (http://jasonkuhrt.com/)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jasonkuhrt/timeout/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  }
+}

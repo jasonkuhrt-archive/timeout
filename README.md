@@ -1,4 +1,4 @@
 timeout
 =======
 
-setTimeout with a simple reset API (e.g. useful for watchdog-timers)
+setTimeout with a simple restart API (e.g. useful for watchdog-timers)
